@@ -98,6 +98,7 @@ body {
   position: relative;
   color: #000000;
   opacity: 1;
+  background-image: url('../images/free-to-use-background.svg'); background-size: cover; background-position: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -607,7 +608,7 @@ section {
 
 .mh-header {
   padding: 0;
-  background: #ffffff;
+  background: #d2d2d2;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -671,16 +672,16 @@ section {
 }
 
 .resume-home .resume-inner h1 {
-  font-size: 50px;
+  font-size: 70px;
   font-weight: bold;
   line-height: 1.28;
   letter-spacing: -1.25px;
-  color: #cbcbcb;
+  color: lightgray;
   margin-bottom: 40px;
 }
 
 .resume-home .resume-inner h1 span {
-  color: #0d2658;
+  color: #1b1b19;
 }
 
 .resume-home .resume-inner p {
@@ -804,6 +805,22 @@ section {
   }
 }
 
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+  }
+  40% {
+      transform: translateY(-20px);
+  }
+  60% {
+      transform: translateY(-10px);
+  }
+}
+
+h2.bounce {
+  animation: bounce 2.5s infinite;
+}
+
 .btn-main {
   margin-top: 30px;
 }
@@ -837,6 +854,23 @@ section {
   margin-left: auto !important;
 }
 
+.btn-outline-white {
+  color: #fff;
+  border-color: #fff; 
+  background-color: transparent;
+  border-width: 2px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px; 
+  transition: background-color 0.3s, color 0.3s; 
+  font-size:25px;
+}
+
+.btn-outline-white:hover {
+  background-color: #fff; 
+  color: #000;
+}
+
 .resume-title h1 {
   font-size: 50px;
   font-weight: bold;
@@ -846,7 +880,7 @@ section {
   margin-bottom: 20px;
 }
 
-.resume-title p {
+.resume-title p{
   opacity: 0.6;
   font-size: 16px;
   line-height: 1.88;

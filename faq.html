@@ -67,9 +67,11 @@
                                 <a class="nav-link" href="about.html">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " href="product.html">Product</a>
+                                <a class="nav-link " href="services.html">Services</a>
                             </li>
-                                                                                 
+                            <li class="nav-item">
+                                <a class="nav-link" href="faq.html">FAQ</a>
+                            </li>                                                          
                             <li class="nav-item">
                                 <a class="nav-link" href="contact.html">Contact</a>
                             </li>                
@@ -85,39 +87,39 @@
         WHAT I DO 
     ================
     -->    
-    <section class="section-padding relative resume-do aboutus" id="service">  
+    <section class="section-padding relative resume-do" id="service">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 ">
-                    <div class="resume-title " >
-                        <h4>REFUND POLICY</h4>
-                        <p>
-        
-
-                            Thank you for using and subscribing to our services operated by Asia Debut Sdn Bhd
-                            <br>
-                            Due to the nature of our business and the issues that you might encounter during your use of our services we have uphold a refund/return policy for each product, purchases and subscription. The refund policy are as follows:
-                            <br>
-                            Digital Product.<br>
-                            1. Any purchases or subscription of services via our website and application are refundable if you wish to cancel.
-                            <br>2. Cancellation can only be done within 60 days of purchase or subscription. Any causes of cancellation must be included for our improvement and notice.
-                            <br>3. Purchases or subscription beyond 60 days of refund period will not be process and are considered sold.
-                            <br>4. Cancellation can be made through our website or application where the customer must provide the date of purchase for identification and tracking.
-                            <br>5. Cancellation will be processed within three (3) working days and refund will be given in the next three (3) working days.
-                            <br>6. If you purchase or subscribe to the same product/services that you have previously canceled, you are able to cancel but will not receive any refund.
-                            </p>
+                <div class="col-md-6">
+                    <!-- FAQ IMAGE -->
+                    <img src="assets/images/faq.png" alt="Question Image" class="question-image" style="max-width: 100%; height: auto;">
+                </div>
+                <div class="col-md-6">
+                    <div class="faq-item">
+                        <!-- Collapsible FAQ Question 1 -->
+                        <div class="faq-question" data-toggle="collapse" data-target="#faq1">
+                            <span class="question-text">What is the question?</span>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <!-- Collapsible FAQ Answer 1 -->
+                        <div id="faq1" class="collapse">
+                            <p class="faq-answer">This is the answer to the first question.</p>
+                        </div>
+                        
+                        <!-- Collapsible FAQ Question 2 -->
+                        <div class="faq-question" data-toggle="collapse" data-target="#faq2">
+                            <span class="question-text">What is another question?</span>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <!-- Collapsible FAQ Answer 2 -->
+                        <div id="faq2" class="collapse">
+                            <p class="faq-answer">This is the answer to the second question.</p>
+                        </div>
                     </div>
                 </div>
-
-                
             </div>
         </div>
-
-        
     </section>
-
-    
-
     
 
     <footer class="footer">
@@ -130,6 +132,7 @@
                     118-1, Jalan Damai Raya 2 Taman Damai Circles 56000 Cheras, Kuala Lumpur, Malaysia.<br>
                     Tel: +60391076423.
                 </small>
+                  
             </div>
           
               <div class="col mb-3">
@@ -140,23 +143,22 @@
                 <ul class="nav flex-column">
                   <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
                   <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-muted">About</a></li>
-                  <li class="nav-item mb-2"><a href="product.html" class="nav-link p-0 text-muted">Product</a></li>
+                  <li class="nav-item mb-2"><a href="services.html" class="nav-link p-0 text-muted">Services</a></li>
+                  <li class="nav-item mb-2"><a href="faq.html" class="nav-link p-0 text-muted">FAQ</a></li>
                 </ul>
               </div>
           
               <div class="col mb-3">
                 <ul class="nav flex-column">
-                  <li class="nav-item mb-2"><a href="product.html" class="nav-link p-0 text-muted">Super App</a></li>
-                  <li class="nav-item mb-2"><a href="product.html" class="nav-link p-0 text-muted">The Corridor</a></li>
-                  <li class="nav-item mb-2"><a href="product.html" class="nav-link p-0 text-muted">SpatialX</a></li>
+                  <li class="nav-item mb-2"><a href="services.html" class="nav-link p-0 text-muted">Super App</a></li>
+                  <li class="nav-item mb-2"><a href="services.html" class="nav-link p-0 text-muted">The Corridor</a></li>
+                  <li class="nav-item mb-2"><a href="services.html" class="nav-link p-0 text-muted">SpatialX</a></li>
                 </ul>
               </div>
           
               <div class="col mb-3">
                 <ul class="nav flex-column">
-                  <li class="nav-item mb-2"><a href="refund-policy.html" class="nav-link p-0 text-muted">Refund Policy</a></li>
-                  <li class="nav-item mb-2"><a href="privacy-policy.html" class="nav-link p-0 text-muted">Privacy Policy</a></li>
-                  <li class="nav-item mb-2"><a href="fulfillment-policy.html" class="nav-link p-0 text-muted">Fulfillment Policy</a></li>
+                    <li class="nav-item mb-2"><a href="privacy-policy.html" class="nav-link p-0 text-muted">Privacy Policy</a></li>
                 </ul>
               </div>
             </footer>
@@ -214,6 +216,8 @@
             loop: true,
         });        
     </script>
+    <!-- Faq Custom Script -->
+    <script src="assets\js\faqscripts.js"></script>
 
 </body>
 </html>
