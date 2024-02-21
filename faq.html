@@ -38,6 +38,18 @@
     <link rel="stylesheet" href="assets/css/custom.css">
     <!-- Responsive -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+
+
+    <style>
+        .faq-question .question-text::after {
+            padding: 3px;
+            content: "-";
+        }
+
+        .faq-question.collapsed .question-text::after{
+            content: "+";
+        }
+    </style>
     
 </head>
 <body class="black-bg body-2" >
@@ -97,9 +109,9 @@
                 <div class="col-md-6">
                     <div class="faq-item">
                         <!-- Collapsible FAQ Question 1 -->
-                        <div class="faq-question" data-toggle="collapse" data-target="#faq1">
+                        <div class="faq-question collapsed" data-toggle="collapse" data-target="#faq1">
                             <span class="question-text">What is the question?</span>
-                            <span class="toggle-icon">+</span>
+                            <!-- <span class="toggle-icon"></span> -->
                         </div>
                         <!-- Collapsible FAQ Answer 1 -->
                         <div id="faq1" class="collapse">
@@ -107,13 +119,23 @@
                         </div>
                         
                         <!-- Collapsible FAQ Question 2 -->
-                        <div class="faq-question" data-toggle="collapse" data-target="#faq2">
+                        <div class="faq-question  collapsed" data-toggle="collapse" data-target="#faq2">
                             <span class="question-text">What is another question?</span>
-                            <span class="toggle-icon">+</span>
+                            <!-- <span class="toggle-icon">+</span> -->
                         </div>
                         <!-- Collapsible FAQ Answer 2 -->
                         <div id="faq2" class="collapse">
                             <p class="faq-answer">This is the answer to the second question.</p>
+                        </div>
+
+                          <!-- Collapsible FAQ Question 3 -->
+                          <div class="faq-question  collapsed" data-toggle="collapse" data-target="#faq3">
+                            <span class="question-text">What is another question?</span>
+                            <!-- <span class="toggle-icon">+</span> -->
+                        </div>
+                        <!-- Collapsible FAQ Answer 3 -->
+                        <div id="faq3" class="collapse">
+                            <p class="faq-answer">This is the answer to the third question.</p>
                         </div>
                     </div>
                 </div>
