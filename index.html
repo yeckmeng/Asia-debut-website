@@ -87,15 +87,21 @@
     ==============
     -->
     
-    <section class="section relative ev-home resume-home" id="ev-home">                  
+    <section class="section relative ev-home resume-home" id="ev-home">
         <div class="container zindex">
             <div class="section-separator">
                 <div class="row">
-                    <div class="col-md-12 text-center">  
+                    <div class="col-md-12 text-center">
                         <div class="resume-inner">
                             <h1 class="typed">Invent Better Differently <br><span class="type"></span></h1>
                             <p style="font-size: 1.2em;">Asia Debut stands tall in pioneering technological system maintenance and Internet of Things (IoT). With over a number of clients spanning over private and government agencies, we believe in delivering the best solution for your needs.</p>
-                            <a href="about.html" class="btn btn-outline-white btn-lg" style = "border-radius: 0">Learn More</a>
+                            <a href="about.html" class="btn btn-outline-learn btn-lg" style="border-radius: 0; margin-bottom: 60px;">Learn More</a>
+    
+                            <div class="d-flex justify-content-center align-items-center video">
+                                <video autoplay loop muted playsinline>
+                                    <source src="assets\video\spatialxvideo.mp4" type="video/mp4">
+                                </video>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -109,8 +115,10 @@
         WHAT I DO 
     ================
     -->    
+
+
     
-    <section class="section-padding relative resume-do" id="service" style = "background:white; background-size: cover; background-position: center";>  
+    <section class="section-padding relative resume-do" id="service" style = "background:white";>  
         <div class="container">
             <div class="row">
                 <div class="col-md-5 mx-auto">
@@ -186,29 +194,33 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <img src="assets/images/kuplogo.svg" alt="" class="img-fluid">
+                <div class="alltechnology col-lg-2 col-md-1 col-sm-6" data-target="#kuplogo">
+                    <img src="assets/images/kuplogo.svg" alt="" class="logo-size ">
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <img src="assets/images/kuttlogo.png" width="260" alt="" class="img-fluid">
+            
+                <div class="alltechnology col-lg-2 col-md-1 col-sm-6" data-target="#kuttlogo">
+                    <img src="assets/images/kuttlogo.png" width="260" alt="" class="logo-size ">
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <img src="assets/images/kudrlogo.svg" alt="" class="img-fluid">
+                <div class="alltechnology col-lg-2 col-md-1 col-sm-6" data-target="#kudrlogo">
+                    <img src="assets/images/kudrlogo.svg" alt="" class="logo-size ">
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <img src="assets/images/spatialx.svg" alt="" class="img-fluid">
+                <div class="alltechnology col-lg-2 col-md-1 col-sm-6" data-target= "#pmc">
+                    <img src="assets/images/pmc.png" width="260" alt="" class="logo-size last_img">
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <img src="assets/images/pmc.png" width="260" alt="" class="img-fluid last_img">
-                </div>
+            </div>   
+            <div>
+                <p id="kuplogo" class="hidden-text">Pahang Utility Corridor Sdn Bhd is a state utility corridor coordinating agency for Pahang state infrastructure management</p>
+                <p id="kuttlogo" class="hidden-text">Terengganu Technology Utility Corridor (KUTT) is a One Stop Agency (One Stop Agency) appointed in the state of Terengganu on 18 December 2019 which aims to coordinate and manage activities related to the development and maintenance of utility facility routes as well as developing the State Utility Database</p>
+                <p id="kudrlogo" class="hidden-text">Darul Ridzwan Utility Corridor Sdn Bhd (KUDR) is a company established through the initiative of the Perak State Government to create a Coordinating Agency in the utility infrastructure installation industry</p>
+                <p id="pmc" class="hidden-text">Pahang Mining Corporation Sdn Bhd is a one-stop service center for planning, managing and monitoring mining and quarrying activities in the state of Pahang</p>
             </div>
         </div>
     </div>
     
     
 
-    <footer class="footer">
-        <div class="container">
+    <footer class="footer" >
+        <div class="container" style="flex: 1;">
             <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
               <div class="col mb-3">
 
@@ -225,28 +237,27 @@
           
               <div class="col mb-3">
                 <ul class="nav flex-column">
-                  <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
-                  <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-muted">About</a></li>
-                  <li class="nav-item mb-2"><a href="services.html" class="nav-link p-0 text-muted">Services</a></li>
-                  <li class="nav-item mb-2"><a href="faq.html" class="nav-link p-0 text-muted">FAQ</a></li>
+                  <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 ">Home</a></li>
+                  <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 ">About</a></li>
+                  <li class="nav-item mb-2"><a href="services.html" class="nav-link p-0 ">Services</a></li>
+                  <li class="nav-item mb-2"><a href="faq.html" class="nav-link p-0 ">FAQ</a></li>
                 </ul>
               </div>
           
               <div class="col mb-3">
                 <ul class="nav flex-column">
-                  <li class="nav-item mb-2"><a href="services.html" class="nav-link p-0 text-muted">Super App</a></li>
-                  <li class="nav-item mb-2"><a href="services.html" class="nav-link p-0 text-muted">The Corridor</a></li>
-                  <li class="nav-item mb-2"><a href="services.html" class="nav-link p-0 text-muted">SpatialX</a></li>
+                  
+                  <li class="nav-item mb-2"><a href="services.html" class="nav-link p-0 ">The Corridor</a></li>
+                  <li class="nav-item mb-2"><a href="services.html" class="nav-link p-0 ">SpatialX</a></li>
                 </ul>
               </div>
           
               <div class="col mb-3">
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="privacy-policy.html" class="nav-link p-0 text-muted">Privacy Policy</a></li>
+                    <li class="nav-item mb-2"><a href="privacy-policy.html" class="nav-link p-0 ">Privacy Policy</a></li>
                 </ul>
               </div>
             </footer>
-            <a href="https://www.freepik.com/free-photo/abstract-gray-mosaic-polygon-surfaced-background_15601228.htm#query=grey%20background%20vector&position=5&from_view=search&track=ais&uuid=a8dbb75b-6e0b-47d5-a185-64151b608321">Image by rawpixel.com</a> on Freepik
           </div>
       </footer>
 
@@ -301,6 +312,8 @@
             loop: true,
         });        
     </script>
+
+    <script src="assets/js/technological.js"></script>   
 
 </body>
 </html>

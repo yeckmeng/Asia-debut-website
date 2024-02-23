@@ -98,7 +98,6 @@ body {
   position: relative;
   color: #000000;
   opacity: 1;
-  background-image: url('../images/free-to-use-background.svg'); background-size: cover; background-position: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -623,7 +622,7 @@ section {
   left: 0;
   right: 0;
   top: 0;
-  background: #ffffff;
+  background: #d2d2d2;
 }
 
 .mh-header.nav-strict .mh-nav {
@@ -663,12 +662,9 @@ section {
        home
     ==============
 */
-.resume-home {
-  height: 100vh;
-}
 
 .resume-home .resume-inner {
-  padding: 140px 0px;
+  padding: 140px 0px 5px 0px;
 }
 
 .resume-home .resume-inner h1 {
@@ -676,7 +672,7 @@ section {
   font-weight: bold;
   line-height: 1.28;
   letter-spacing: -1.25px;
-  color: lightgray;
+  color: rgb(171, 171, 171);
   margin-bottom: 40px;
 }
 
@@ -854,21 +850,42 @@ h2.bounce {
   margin-left: auto !important;
 }
 
-.btn-outline-white {
-  color: #fff;
-  border-color: #fff; 
+.btn-outline-learn {
+  color: gray;
+  border-color: grey; 
   background-color: transparent;
   border-width: 2px;
-  padding: 10px 20px;
+  padding: 10px 10px;
   text-decoration: none;
   font-size: 18px; 
   transition: background-color 0.3s, color 0.3s; 
   font-size:25px;
 }
 
-.btn-outline-white:hover {
-  background-color: #fff; 
-  color: #000;
+.btn-outline-learn:hover {
+  background-color: gray; 
+  color: white;
+}
+
+.job-posting {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-apply {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-apply:hover {
+  background-color: #0056b3;
 }
 
 .resume-title h1 {
@@ -896,6 +913,12 @@ h2.bounce {
        Do area
     ==============
 */
+
+.resume-do {
+  position: relative;
+  z-index: 2; /*overlap of section white with other image prevention*/
+}
+
 .resume-do-inner .do-inner .do_icon {
   width: 72px;
   height: 72px;
@@ -1738,6 +1761,35 @@ h2.bounce {
   height: 52px;
 }
 
+.faq-question .question-text::after {
+  padding: 3px;
+  content: "-";
+}
+
+.faq-question.collapsed .question-text::after{
+  content: "+";
+}
+
+.faq-question {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+  transition: background-color 0.3s ease;
+  font-size: 18px;
+}
+.faqcollapse {
+  background-color: white;
+  color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
 .ag-blog-single-page {
   border-bottom: 1px solid rgba(209, 211, 220, 0.4);
 }
@@ -1983,3 +2035,40 @@ h2.bounce {
   border: solid 1.4px rgba(42, 42, 42, 0.15);
 }
 /*# sourceMappingURL=styles.css.map */
+
+.hidden-text {
+  display: none;
+  text-align: center;
+  margin-top: 20px; 
+  font-size: 10px;
+}
+
+.video video {
+  width: 90%;
+  height: calc(100% - 40px);
+  object-fit: cover;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.6); 
+  border: 3px solid black; 
+}
+
+.employee-image {
+  height: 300px;
+  width: 200px; 
+  object-fit: cover;
+}
+
+.logo-size {
+  max-width: 60%;
+  height:auto;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #d2d2d2;
+  border: 0px;
+}
+
+.main-content {
+  flex: 1;
+}

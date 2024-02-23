@@ -22,10 +22,7 @@
   .res-portfolio .resume-item img {
     margin-left: auto;
   }
-
-  .resume-home {
-    height: 15%;
-  }
+  
 }
 
 @media only screen and (max-width: 991px) {
@@ -307,10 +304,6 @@
     margin-left: 0px;
   }
 
-  .resume-home {
-    height: 50%;
-  }
-
   .res-portfolio .resume-item-1 .resume-img {
     text-align: center;
     margin-top: 0px;
@@ -458,11 +451,9 @@
     font-size: 22px;
     margin: 12px 0;
   }
-  .resume-home {
-    height: 100%;
-  }
+
   .resume-home .resume-inner {
-    padding: 50px 0px;
+    padding: 50px 0px 5px 0px;
     padding-top: 100px;
   }
   .resume-home .resume-inner h1 {
@@ -475,7 +466,6 @@
     padding-top: 18px;
     margin-left: 0px;
     width: 100%;
-    height: 100%;
   }
   .resume-home .resume-img img {
     max-width: 100%;
@@ -584,7 +574,7 @@
     padding: 30px 10px;
   }
   .resume-home .resume-inner {
-    padding: 30px 0px;
+    padding: 30px 0px 5px 0px;
     padding-top: 80px;
   }
   .section-padding {
