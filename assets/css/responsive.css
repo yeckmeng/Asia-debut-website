@@ -22,6 +22,10 @@
   .res-portfolio .resume-item img {
     margin-left: auto;
   }
+
+  .employee-image {
+    width: 100%;
+  }
   
 }
 
@@ -362,6 +366,11 @@
   .portfolio-home .portfolio-box .box-inner .box_hover .heading__portfolio span {
     font-size: 12px;
   }
+
+  .employee-image {
+    width: 80%;
+  }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -549,6 +558,9 @@
   .mouse-cursor-dot {
     display: none;
   }
+  .employee-image {
+    width: 70%;
+  }
 }
 
 @media only screen and (max-width: 575px) {
@@ -598,5 +610,11 @@
   .resume-home .resume-inner h1 {
     font-size: 30px;
   }
+  .employee-image {
+    width: 50%;
+  }
 }
 /*# sourceMappingURL=responsive.css.map */
+
+
+

@@ -2044,7 +2044,7 @@ h2.bounce {
 }
 
 .video video {
-  width: 90%;
+  width: 85%;
   height: calc(100% - 40px);
   object-fit: cover;
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.6); 
@@ -2071,4 +2071,9 @@ h2.bounce {
 
 .main-content {
   flex: 1;
+}
+
+.employee-image {
+  width: 100%;
+
 }
