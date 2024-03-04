@@ -905,7 +905,7 @@ h2.bounce {
 }
 
 .section-padding {
-  padding: 125px 0px;
+  padding: 125px 0px 0px 0px;
 }
 
 /*
@@ -2051,12 +2051,6 @@ h2.bounce {
   border: 3px solid black; 
 }
 
-.employee-image {
-  height: 300px;
-  width: 200px; 
-  object-fit: cover;
-}
-
 .logo-size {
   max-width: 60%;
   height:auto;
@@ -2074,6 +2068,42 @@ h2.bounce {
 }
 
 .employee-image {
+  height: 300px;
+  width: 200px; 
+  object-fit: cover;
   width: 100%;
-
 }
+
+.employee-container {
+  position: relative;
+}
+
+.employee-info {
+  position: relative;
+  overflow: hidden;
+}
+
+.employee-info img {
+  transition: filter 0.3s ease-in-out;
+}
+
+.employee-info:hover img {
+  filter: brightness(70%);
+}
+
+.employee-info p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: yellow;
+  z-index: 2; 
+  opacity: 0; 
+  transition: opacity 0.3s ease-in-out;
+}
+
+.employee-info:hover p {
+  opacity: 1; 
+}
+
