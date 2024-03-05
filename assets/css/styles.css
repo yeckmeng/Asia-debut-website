@@ -2068,8 +2068,6 @@ h2.bounce {
 }
 
 .employee-image {
-  height: 300px;
-  width: 200px; 
   object-fit: cover;
   width: 100%;
 }
@@ -2083,12 +2081,13 @@ h2.bounce {
   overflow: hidden;
 }
 
-.employee-info img {
+/*.employee-info img {
   transition: filter 0.3s ease-in-out;
 }
+*/
 
 .employee-info:hover img {
-  filter: brightness(70%);
+  filter: brightness(0%) invert(0.85);
 }
 
 .employee-info p {
@@ -2097,7 +2096,7 @@ h2.bounce {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: yellow;
+  color: black;
   z-index: 2; 
   opacity: 0; 
   transition: opacity 0.3s ease-in-out;
@@ -2107,3 +2106,24 @@ h2.bounce {
   opacity: 1; 
 }
 
+.dropdown-menu {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 0.75rem 1.5rem; 
+}
+
+.dropdown-menu a:hover {
+  background-color: #D2D2D2;
+}
+
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+.nav-item.dropdown:hover .nav-link {
+  color: red;
+}

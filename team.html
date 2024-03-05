@@ -12,9 +12,9 @@
     
     <!-- FAV AND ICONS   --> 
     <link rel="shortcut icon" href="assets/images/favicon.ico">
-    <link rel="shortcut icon" href="assets/images/apple-icon.png">
-    <link rel="shortcut icon" sizes="72x72" href="assets/images/apple-icon-72x72.png">
-    <link rel="shortcut icon" sizes="114x114" href="assets/images/apple-icon-114x114.png">
+    <link rel="shortcut icon" href="assets/images/apple-icon.jpg">
+    <link rel="shortcut icon" sizes="72x72" href="assets/images/apple-icon-72x72.jpg">
+    <link rel="shortcut icon" sizes="114x114" href="assets/images/apple-icon-114x114.jpg">
     
     <!-- Font-->
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -74,8 +74,15 @@
                             <li class="nav-item">
                                 <a class="nav-link " href="team.html">Team</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link " href="services.html">Services</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown">
+                                    Services
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="custom-system.html">Custom System</a>
+                                    <a class="dropdown-item" href="gis.html">GIS</a>
+                                    <a class="dropdown-item" href="data-center.html">Data Center</a>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="faq.html">FAQ</a>
@@ -96,16 +103,32 @@
     ================
     -->    
 
-
-    <section class="section-padding relative resume-do aboutus" id="service" style = "background:white;">  
+    <section class="section-padding relative resume-do" id="service">  
         <div class="container">
-            <div class="col-md-12 text-center" style="margin-bottom: 20px;">
-                    <h4>Meet The Team</h4>
+            <div class="row" style="margin-bottom: 20px;">
+                <div class="col-md-12 text-center">
+                        <h4>Meet The Team</h4>
+                </div>
             </div>
-            <div class="row">
 
-                <div class="col-lg-12 col-md-12 text-center mt-4 mb-4">
-                    <h4>Information Technology</h4>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 text-center mt-2 mb-4">
+                    <h4 style = "text-decoration: underline;">Management</h4>
+                </div>
+
+                <!-- Chairman -->
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 employee-info">
+                                <img src="assets\images\employees\chairman_en_is.jpg" class = "employee-image" />
+                                <p>Chairman</p>
+                            </div>
+                            <div class="col-12">
+                                <h3 class="c-text-image--title">En Is</h3>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Director -->
@@ -113,7 +136,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12 employee-info">
-                                <img src="assets\images\employees\director_azie.png" class = "employee-image" />
+                                <img src="assets\images\employees\director_azie.jpg" class = "employee-image" />
                                 <p>Director</p>
                             </div>
                             <div class="col-12">
@@ -123,7 +146,34 @@
                     </div>
                 </div>
 
-                <!-- Employee 1 -->
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 employee-info">
+                                <img src="assets\images\employees\adsb_adib.jpg" class = "employee-image" />
+                                <p>Account</p>
+                            </div>
+                            <div class="col-12">
+                                <h3 class="c-text-image--title">Adib</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 employee-info">
+                                <img src="assets\images\employees\admin_sabrina.jpg" class = "employee-image" />
+                                <p>Administration/HR</p>
+                            </div>
+                            <div class="col-12">
+                                <h3 class="c-text-image--title">Sabrina</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="col-lg-3 col-md-3 col-12">
                     <div class="container">
                         <div class="row">
@@ -138,7 +188,38 @@
                     </div>
                 </div>
 
-                <!-- Employee 2 -->
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 employee-info">
+                                <img src="assets\images\employees\kuantan_gis_adnin.jpg" class = "employee-image" />
+                                <p>GIS Director</p>
+                            </div>
+                            <div class="col-12">
+                                <h3 class="c-text-image--title">Adnin</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 col-md-12 text-center mt-4 mb-4">
+                    <h4 style = "text-decoration: underline;">Information Technology</h4>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 employee-info">
+                                <img src="assets\images\employees\adsb_fakrie.jpg" class = "employee-image" />
+                                <p>Project Manager</p>
+                            </div>
+                            <div class="col-12">
+                                <h3 class="c-text-image--title">Fakrie</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="col-lg-3 col-md-3 col-12">
                     <div class="container">
                         <div class="row">
@@ -153,7 +234,6 @@
                     </div>
                 </div>
                 
-                <!-- Employee 3 -->
                 <div class="col-lg-3 col-md-3 col-12">
                     <div class="container">
                         <div class="row">
@@ -169,40 +249,37 @@
                 </div>
 
                 <div class="col-lg-12 col-md-12 text-center mt-4 mb-4">
-                    <h4>Terengganu Branch</h4>
+                    <h4 style = "text-decoration: underline;">Terengganu Branch</h4>
                 </div>
 
-                <!-- Employee 4 -->
                 <div class="col-lg-3 col-md-3 col-12">
                     <div class="container">
                         <div class="row">
                             <div class="col-12 employee-info">
-                                <img src="assets\images\employees\chairman_en_is.png" class = "employee-image" />
-                                <p>Chairman</p>
-                            </div>
-                            <div class="col-12">
-                                <h3 class="c-text-image--title">Chairman En Is</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Employee 5 -->
-                <div class="col-lg-3 col-md-3 col-12">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 employee-info">
-                                <img src="assets\images\employees\adt_director_hisyam.png" class = "employee-image" />
+                                <img src="assets\images\employees\adt_director_hisyam.jpg" class = "employee-image" />
                                 <p>Business Director</p>
                             </div>
                             <div class="col-12">
-                                <h3 class="c-text-image--title">Director Hisyam</h3>
+                                <h3 class="c-text-image--title">Hisyam</h3>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Employee 6 -->
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 employee-info">
+                                <img src="assets\images\employees\sr_hadi.jpg" class = "employee-image" />
+                                <p>Business Development Director</p>
+                            </div>
+                            <div class="col-12">
+                                <h3 class="c-text-image--title">Hadi</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="col-lg-3 col-md-3 col-12">
                     <div class="container">
                         <div class="row">
@@ -217,26 +294,11 @@
                     </div>
                 </div>
 
-                <!-- Employee 7 -->
                 <div class="col-lg-3 col-md-3 col-12">
                     <div class="container">
                         <div class="row">
                             <div class="col-12 employee-info">
-                                <img src="assets\images\employees\kuantan_gis_adnin.png" class = "employee-image" />
-                                <p>GIS Director</p>
-                            </div>
-                            <div class="col-12">
-                                <h3 class="c-text-image--title">Adnin</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-3 col-12">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 employee-info">
-                                <img src="assets/images/employees/adt_che_fakhri.png" class = "employee-image" />
+                                <img src="assets/images/employees/adt_che_fakhri.jpg" class = "employee-image" />
                                 <p>Senior Developer</p>
                             </div>
                             <div class="col-12">
@@ -296,25 +358,53 @@
                                 <p>BE Developer</p>
                             </div>
                             <div class="col-12">
-                                <h3 class="c-text-image--title">Najmie</h3>
+                                <h3 class="c-text-image--title">Najmi</h3>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-12 col-md-12 text-center mt-4 mb-4">
-                    <h4>Geographic Information Systems - Terengganu</h4>
+                    <h4 style = "text-decoration: underline;">Geographic Information Systems - Terengganu</h4>
                 </div>
 
                 <div class="col-lg-3 col-md-3 col-12">
                     <div class="container">
                         <div class="row">
                             <div class="col-12 employee-info">
-                                <img src="assets\images\employees\kuantan_emma.png" class = "employee-image" />
+                                <img src="assets\images\employees\kuantan_gis_adnin.jpg" class = "employee-image" />
+                                <p>GIS Director</p>
+                            </div>
+                            <div class="col-12">
+                                <h3 class="c-text-image--title">Adnin</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 employee-info">
+                                <img src="assets\images\employees\kuantan_emma.jpg" class = "employee-image" />
                                 <p>GIS Lead Officer</p>
                             </div>
                             <div class="col-12">
                                 <h3 class="c-text-image--title">Emma</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 employee-info">
+                                <img src="assets\images\employees\kuantan_gis_ain.JPG" class = "employee-image" />
+                                <p>Administration</p>
+                            </div>
+                            <div class="col-12">
+                                <h3 class="c-text-image--title">Ain</h3>
                             </div>
                         </div>
                     </div>
@@ -352,7 +442,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12 employee-info">
-                                <img src="assets\images\employees\kuantan_gis_shakila.png" class = "employee-image" />
+                                <img src="assets\images\employees\kuantan_gis_shakila.jpg" class = "employee-image" />
                                 <p>Geospatial Officer</p>
                             </div>
                             <div class="col-12">
@@ -366,7 +456,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12 employee-info">
-                                <img src="assets\images\employees\kuantan_gis_aishah.png" class = "employee-image" />
+                                <img src="assets\images\employees\kuantan_gis_aishah.jpg" class = "employee-image" />
                                 <p>Geospatial Executive</p>
                             </div>
                             <div class="col-12">
@@ -408,7 +498,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12 employee-info">
-                                <img src="assets\images\employees\kuantan_gis_zafirah.png" class = "employee-image" />
+                                <img src="assets\images\employees\kuantan_gis_zafirah.jpg" class = "employee-image" />
                                 <p>Geospatial Executive</p>
                             </div>
                             <div class="col-12">
@@ -433,7 +523,7 @@
                 </div>
 
                 <div class="col-lg-12 col-md-12 text-center mt-4 mb-4">
-                    <h4>Geographic Information Systems - Perak</h4>
+                    <h4 style = "text-decoration: underline;">Geographic Information Systems - Perak</h4>
                 </div>
 
                 <div class="col-lg-3 col-md-3 col-12">
@@ -454,7 +544,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12 employee-info">
-                                <img src="assets\images\employees\kuantan_gis_syahmiza.png" class = "employee-image" />
+                                <img src="assets\images\employees\kuantan_gis_syahmiza.jpg" class = "employee-image" />
                                 <p>Geospatial Executive</p>
                             </div>
                             <div class="col-12">
@@ -478,45 +568,9 @@
                     </div>
                 </div>
 
-                <div class="col-lg-12 col-md-12 text-center mt-4 mb-4">
-                    <h4>Finance & Administrative Division</h4>
-                </div>
-
-                <div class="col-lg-3 col-md-3 col-12">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 employee-info">
-                                <img src="assets\images\employees\adsb_adib.png" class = "employee-image" />
-                                <p>Account</p>
-                            </div>
-                            <div class="col-12">
-                                <h3 class="c-text-image--title">Adib</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-3 col-12">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 employee-info">
-                                <img src="assets\images\employees\kuantan_gis_ain.JPG" class = "employee-image" />
-                                <p>Administration</p>
-                            </div>
-                            <div class="col-12">
-                                <h3 class="c-text-image--title">Ain</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
-    
-
-    
-
 
     <footer class="footer">
         <div class="container">
@@ -539,7 +593,7 @@
                   <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 ">Home</a></li>
                   <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 ">About</a></li>
                   <li class="nav-item mb-2"><a href="team.html" class="nav-link p-0 ">Team</a></li>
-                  <li class="nav-item mb-2"><a href="services.html" class="nav-link p-0 ">Services</a></li>
+                  
                   <li class="nav-item mb-2"><a href="faq.html" class="nav-link p-0 ">FAQ</a></li>
                 </ul>
               </div>
