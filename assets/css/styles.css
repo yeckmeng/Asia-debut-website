@@ -904,6 +904,13 @@ h2.bounce {
   color: #071634;
 }
 
+.resume-title p1{
+  opacity: 0.6;
+  font-size: 16px;
+  line-height: 1.88;
+  color: #071634;
+}
+
 .section-padding {
   padding: 125px 0px 0px 0px;
 }
@@ -2063,6 +2070,10 @@ h2.bounce {
   border: 0px;
 }
 
+.servicefooter {
+  margin-top: 800px;
+}
+
 .main-content {
   flex: 1;
 }
@@ -2127,3 +2138,16 @@ h2.bounce {
 .nav-item.dropdown:hover .nav-link {
   color: red;
 }
+
+/*Below vvv This is for team titles vvv Below*/
+
+.teamtitle h3 {
+  font-weight:normal;
+  font-size:20px;
+}
+
+.teamtitle h4 {
+  font-size:30px;
+}
+
+/**/
