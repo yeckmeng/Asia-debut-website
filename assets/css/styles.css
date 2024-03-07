@@ -2131,14 +2131,17 @@ h2.bounce {
   background-color: #D2D2D2;
 }
 
-.nav-item:hover .dropdown-menu {
+/* .nav-item:hover .dropdown-menu {
   display: block;
-}
+} */
 
 .nav-item.dropdown:hover .nav-link {
   color: red;
 }
 
+#servicesDropdown a.dropdown-item:hover {
+  color: red;
+}
 /*Below vvv This is for team titles vvv Below*/
 
 .teamtitle h3 {

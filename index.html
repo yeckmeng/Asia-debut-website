@@ -46,52 +46,51 @@
         NAVIGATION
     ===================
     -->
-        <header class="black-bg mh-header nav-scroll fixed-top mh-xss-mobile-nav" id="zb-header";>
-            <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <nav class="navbar navbar-expand-lg mh-nav nav-btn">
-                    <a class="navbar-brand" href="index.html"><img src="assets/images/adsblogo.svg" width="120" alt="" class="img-fluid"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon icon">
-                            <i class="fa fa-bars"></i>
-                        </span>
-                    </button>                    
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-0 ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>                         
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link " href="team.html">Team</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown">
-                                    Services
-                                </a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="custom-system.html">Custom Systems</a>
-                                    <a class="dropdown-item" href="gis.html">GIS</a>
-                                    <a class="dropdown-item" href="data-center.html">Data Center</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="faq.html">FAQ</a>
-                            </li>                                                          
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>                
-                        </ul>
-                    </div>
-                    
-                </nav>
-            </div>
+    <header class="black-bg mh-header nav-scroll fixed-top mh-xss-mobile-nav" id="zb-header";>
+        <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg mh-nav nav-btn">
+                <a class="navbar-brand" href="index.html"><img src="assets/images/adsblogo.svg" width="120" alt="" class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon icon">
+                        <i class="fa fa-bars"></i>
+                    </span>
+                </button>                    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-0 ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>                         
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="team.html">Team</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdownList" role="button">
+                                Services
+                            </a>
+                            <div id = "servicesDropdown" class="dropdown-menu">
+                                <a class="dropdown-item" href="custom-system.html">Custom Systems</a>
+                                <a class="dropdown-item" href="gis.html">GIS</a>
+                                <a class="dropdown-item" href="data-center.html">Data Center</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>                                                          
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>                
+                    </ul>
+                </div>
+            </nav>
         </div>
     </header>
+        
     <!--
     ==============
         HOME 
@@ -208,13 +207,13 @@
                 </div>
             
                 <div class="alltechnology col-lg-2 col-md-1 col-sm-6" data-target="#kuttlogo">
-                    <img src="assets/images/kuttlogo.png" width="260" alt="" class="logo-size ">
+                    <img src="assets/images/kuttlogo.png"  alt="" class="logo-size ">
                 </div>
                 <div class="alltechnology col-lg-2 col-md-1 col-sm-6" data-target="#kudrlogo">
                     <img src="assets/images/kudrlogo.svg" alt="" class="logo-size ">
                 </div>
                 <div class="alltechnology col-lg-2 col-md-1 col-sm-6" data-target= "#pmc">
-                    <img src="assets/images/pmc.png" width="260" alt="" class="logo-size last_img">
+                    <img src="assets/images/pmc.png"  alt="" class="logo-size last_img">
                 </div>
             </div>   
             <div>
@@ -322,8 +321,9 @@
             loop: true,
         });        
     </script>
-
-    <script src="assets/js/technological.js"></script>   
-
+    <!-- Technological Scripts-->
+    <script src="assets/js/technological.js"></script>  
+    <!-- Navigation Drop Down Script--> 
+    <script src="assets/js/navdropdown.js"></script>  
 </body>
 </html>

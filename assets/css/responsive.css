@@ -30,6 +30,7 @@
 }
 
 @media only screen and (max-width: 991px) {
+  
   .section-separator {
     padding: 40px 0;
   }
@@ -560,6 +561,14 @@
   }
   .employee-image {
     width: 70%;
+  }
+
+  .alltechnology{
+    height: 100px;
+  }
+
+  .logo-size{
+    width:170px;
   }
 }
 
