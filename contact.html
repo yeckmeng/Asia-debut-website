@@ -51,37 +51,48 @@
         NAVIGATION
     ===================
     -->
-    <header class="black-bg mh-header nav-scroll fixed-top mh-xss-mobile-nav" id="zb-header">
+    <header class="black-bg mh-header nav-scroll fixed-top mh-xss-mobile-nav" id="zb-header";>
         <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <nav class="navbar navbar-expand-lg mh-nav nav-btn">
-                    <a class="navbar-brand" href="index.html"><img src="assets/images/adsblogo.svg" width="120" alt="" class="img-fluid"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon icon">
-                            <i class="fa fa-bars"></i>
-                        </span>
-                    </button>                    
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-0 ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>                         
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link " href="product.html">Product</a>
-                            </li>
-                                                                                 
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>                
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg mh-nav nav-btn">
+                <a class="navbar-brand" href="index.html"><img src="assets/images/adsblogo.svg" width="120" alt="" class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon icon">
+                        <i class="fa fa-bars"></i>
+                    </span>
+                </button>                    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-0 ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>                         
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="team.html">Team</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdownList" role="button">
+                                Services
+                            </a>
+                            <div id = "servicesDropdown" class="dropdown-menu">
+                                <a class="dropdown-item" href="custom-system.html">Custom Systems</a>
+                                <a class="dropdown-item" href="gis.html">GIS</a>
+                                <a class="dropdown-item" href="data-center.html">Data Center</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>                                                          
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>                
+                    </ul>
+                </div>
+            </nav>
         </div>
     </header>
 
@@ -90,28 +101,60 @@
         WHAT I DO 
     ================
     -->    
-    <section class="section-padding relative resume-do" id="service">  
+
+    <section class="section-padding relative resume-do" id="service">
         <div class="container">
-            <div class="row">
-                <div class="col-md-5 ">
-                    <div class="resume-title " >
-             
-                        
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSedMurIqyBlexD9H5AMWuLq4boSaRZMl5-u190X73MPoVFqbw/viewform?embedded=true" width="650" height="700" use scrolling="no" frameBorder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <div class="row" style="margin-bottom: 70px;">
+                <div class="col-md-12 text-center">
+                    <div class="resume-title">
+                        <h2 style="font-size: 60px;" class="bounce">Contact Us ✆</h2>
+                        <br>
+    
+                        <div class="contact-section" style="margin-bottom: 50px;">
+                            <h3><strong>General/Software Inquiries</strong></h3>
+                            <ul>
+                                <li><strong>Phone:</strong> +60391076423 </li>
+                                <li style="margin-top: 10px;"><strong>Email:</strong> fakrie@asiadebut.group</br>
+                            </ul>
+                            <p></p>
+                            <h3><strong>GIS Related Inquiries</strong></h3>
+                            <ul>
+                            <li style="margin-top: 10px;"><strong>Email:</strong> adnin@asiadebut.group</br>
+                            </ul>
+                        </div> 
                     </div>
                 </div>
-
-                
+            </div>
+    
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="contact-form">
+                        <form action="https://api.web3forms.com/submit" method="POST">
+                            <div class="form-group">
+                            <input type="hidden" name="access_key" value="60b56b51-ba5b-499a-9452-2d47d4f4460c">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Your Name:</label>
+                                <input type="text" class="form-control" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email:</label>
+                                <input type="email" class="form-control" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Your Message:</label>
+                                <input type="text" class="form-control" name="message" placeholder="Write message here" required>
+                            </div>
+                            <div class="form-group text-center mb-4">
+                                <button class="btn btn-primary" type="submit">Send</button>
+                            </div>
+                        </form>                 
+                    </div>
+                </div>
             </div>
         </div>
-
-        
     </section>
-
     
-
-    
-
     <footer class="footer">
         <div class="container">
             <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
@@ -130,25 +173,25 @@
           
               <div class="col mb-3">
                 <ul class="nav flex-column">
-                  <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
-                  <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-muted">About</a></li>
-                  <li class="nav-item mb-2"><a href="product.html" class="nav-link p-0 text-muted">Product</a></li>
+                  <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 ">Home</a></li>
+                  <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 ">About</a></li>
+                  <li class="nav-item mb-2"><a href="team.html" class="nav-link p-0">Team</a></li>
+                  <li class="nav-item mb-2"><a href="faq.html" class="nav-link p-0 ">FAQ</a></li>
                 </ul>
               </div>
           
               <div class="col mb-3">
                 <ul class="nav flex-column">
-                  <li class="nav-item mb-2"><a href="product.html" class="nav-link p-0 text-muted">Super App</a></li>
-                  <li class="nav-item mb-2"><a href="product.html" class="nav-link p-0 text-muted">The Corridor</a></li>
-                  <li class="nav-item mb-2"><a href="product.html" class="nav-link p-0 text-muted">SpatialX</a></li>
+                  
+                  <li class="nav-item mb-2"><a href="custom-system.html" class="nav-link p-0 ">Custom Systems</a></li>
+                  <li class="nav-item mb-2"><a href="gis.html" class="nav-link p-0 ">GIS</a></li>
+                  <li class="nav-item mb-2"><a href="data-center.html" class="nav-link p-0 ">Data Center</a></li>
                 </ul>
               </div>
           
               <div class="col mb-3">
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="refund-policy.html" class="nav-link p-0 text-muted">Refund Policy</a></li>
-                    <li class="nav-item mb-2"><a href="privacy-policy.html" class="nav-link p-0 text-muted">Privacy Policy</a></li>
-                    <li class="nav-item mb-2"><a href="fulfillment-policy.html" class="nav-link p-0 text-muted">Fulfillment Policy</a></li>
+                    <li class="nav-item mb-2"><a href="privacy-policy.html" class="nav-link p-0 ">Privacy Policy</a></li>
                 </ul>
               </div>
             </footer>
@@ -197,15 +240,8 @@
     <script src="assets/plugins/js/scroll-effect.js"></script>  
     <!-- Custom Scripts-->
     <script src="assets/js/custom-scripts.js"></script>   
-    <script>      
-        new WOW().init();
-        var typed = new Typed(".type", {
-            strings: ["Geo Spatial","Data", "Innovation"],
-            typeSpeed: 50,
-            backSpeed: 45,
-            loop: true,
-        });        
-    </script>
+    <!-- Navigation Drop Down Script--> 
+    <script src="assets/js/navdropdown.js"></script>  
 
 </body>
 </html>

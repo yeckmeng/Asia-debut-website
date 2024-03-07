@@ -46,75 +46,86 @@
         NAVIGATION
     ===================
     -->
-    <header class="black-bg mh-header nav-scroll fixed-top mh-xss-mobile-nav" id="zb-header">
+    <header class="black-bg mh-header nav-scroll fixed-top mh-xss-mobile-nav" id="zb-header";>
         <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <nav class="navbar navbar-expand-lg mh-nav nav-btn">
-                    <a class="navbar-brand" href="index.html"><img src="assets/images/adsblogo.svg" width="120" alt="" class="img-fluid"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon icon">
-                            <i class="fa fa-bars"></i>
-                        </span>
-                    </button>                    
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-0 ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>                         
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link " href="product.html">Product</a>
-                            </li>
-                                                                                 
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>                
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg mh-nav nav-btn">
+                <a class="navbar-brand" href="index.html"><img src="assets/images/adsblogo.svg" width="120" alt="" class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon icon">
+                        <i class="fa fa-bars"></i>
+                    </span>
+                </button>                    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-0 ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>                         
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="team.html">Team</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdownList" role="button">
+                                Services
+                            </a>
+                            <div id = "servicesDropdown" class="dropdown-menu">
+                                <a class="dropdown-item" href="custom-system.html">Custom Systems</a>
+                                <a class="dropdown-item" href="gis.html">GIS</a>
+                                <a class="dropdown-item" href="data-center.html">Data Center</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>                                                          
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>                
+                    </ul>
+                </div>
+            </nav>
         </div>
     </header>
+        
     <!--
     ==============
         HOME 
     ==============
     -->
-    <section class="section relative ev-home resume-home" id="ev-home">                  
+    
+    <section class="section relative ev-home resume-home" id="ev-home">
         <div class="container zindex">
             <div class="section-separator">
                 <div class="row">
-                    <div class="col-md-6">  
-                        <div class="resume-inner  " >
-                            <h1 class="typed">Invent Better Differently <br>
-                                    <span class="type"></span></h1>
-                            <p>Asia Debut stands tall in pioneering technological system maintenance and Internet of Things (IoT). With over a number of client spanning over private and government agencies, we believe in delivering the best solution for your needs.
-                            </p>
-                           
-                            
-                        </div>
-                    </div>
-                    <div class="col-md-6">     
-                        <div class="resume-img relative reveal_item  "  id="">
-                            <img src="assets/images/header.jpg" alt="">
-                            <div class="shape-1">
-                                <img src="assets/images/do-s-1.svg" srcset="assets/images/do-s-1.svg 1.2x" alt="" class="img-fluid">
+                    <div class="col-md-12 text-center">
+                        <div class="resume-inner">
+                            <h1 class="typed">Invent Better Differently <br><span class="type"></span></h1>
+                            <p style="font-size: 1.2em;">Asia Debut stands tall in pioneering technological system maintenance and Internet of Things (IoT). With over a number of clients spanning over private and government agencies, we believe in delivering the best solution for your needs.</p>
+                            <a href="about.html" class="btn btn-outline-learn btn-lg" style="border-radius: 0; margin-bottom: 60px;">Learn More</a>
+    
+                            <div class="d-flex justify-content-center align-items-center video">
+                                <video autoplay loop muted playsinline>
+                                    <source src="assets\video\spatialxvideo.mp4" type="video/mp4">
+                                </video>
                             </div>
-                        </div>                     
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section> 
+    </section>
+    
+
     <!--
     ================
         WHAT I DO 
     ================
     -->    
+    
     <section class="section-padding relative resume-do" id="service">  
         <div class="container">
             <div class="row">
@@ -163,7 +174,7 @@
                                         </div>                                          
                                     </div>
                                     <h3 class="offsettop">Geospatial</h3>
-                                    <p>Expert in geographic information science (GIS). Giving our utmost dedication to natural resource management with the help of cutting edge system to manage and monitor projects. 
+                                    <p>Expert in Geographic Information Systems (GIS). Processing, refinining and updating geospatial data aligned with current digital trends that caters to the public and governmental needs.
                                     </p>
                                 </div>                                
                             </div>
@@ -173,7 +184,7 @@
             </div>
         </div>
         <div class="keyboard-shape wow fadeInLeft" data-wow-duration=".9s" data-wow-delay=".1s">
-            <img src="assets/images/keyboard.svg" class="img-fluid" alt="">
+            <img src="assets/images/keyboard.png" class="img-fluid" alt="">
         </div> 
     </section>
 
@@ -184,34 +195,40 @@
     ================
     --> 
     <div class="res-slider section-separator" id="client">
-        
         <div class="container">
-            
-            <div class="row">
-           
-                <div class="col-md-12  text-center ">
-                    <h3>Technology Provider for</h3>
-                   <br>
-                </div>
-      
-                </div>
-
-
-            <div class="row">
+            <div class="row text-center">
                 <div class="col-md-12">
-                    <div class="slider-inner" id="">
-                        <img src="assets/images/kuplogo.svg" alt="" class="img-fluid">
-                        <img src="assets/images/kuttlogo.png" width="260" alt="" class="img-fluid">
-                        <img src="assets/images/kudrlogo.svg" alt="" class="img-fluid">
-                        <img src="assets/images/spatialx.svg" alt="" class="img-fluid last_img">
-                    </div>
+                    <h3 style="margin-bottom: 50px;">Technology Provider for</h3>
                 </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="alltechnology col-lg-2 col-md-1 col-sm-6" data-target="#kuplogo">
+                    <img src="assets/images/kuplogo.svg" alt="" class="logo-size ">
+                </div>
+            
+                <div class="alltechnology col-lg-2 col-md-1 col-sm-6" data-target="#kuttlogo">
+                    <img src="assets/images/kuttlogo.png"  alt="" class="logo-size ">
+                </div>
+                <div class="alltechnology col-lg-2 col-md-1 col-sm-6" data-target="#kudrlogo">
+                    <img src="assets/images/kudrlogo.svg" alt="" class="logo-size ">
+                </div>
+                <div class="alltechnology col-lg-2 col-md-1 col-sm-6" data-target= "#pmc">
+                    <img src="assets/images/pmc.png"  alt="" class="logo-size last_img">
+                </div>
+            </div>   
+            <div>
+                <p id="kuplogo" class="hidden-text">Pahang Utility Corridor Sdn Bhd is a state utility corridor coordinating agency for Pahang state infrastructure management</p>
+                <p id="kuttlogo" class="hidden-text">Terengganu Technology Utility Corridor (KUTT) is a One Stop Agency (One Stop Agency) appointed in the state of Terengganu on 18 December 2019 which aims to coordinate and manage activities related to the development and maintenance of utility facility routes as well as developing the State Utility Database</p>
+                <p id="kudrlogo" class="hidden-text">Darul Ridzwan Utility Corridor Sdn Bhd (KUDR) is a company established through the initiative of the Perak State Government to create a Coordinating Agency in the utility infrastructure installation industry</p>
+                <p id="pmc" class="hidden-text">Pahang Mining Corporation Sdn Bhd is a one-stop service center for planning, managing and monitoring mining and quarrying activities in the state of Pahang</p>
             </div>
         </div>
     </div>
+    
+    
 
-    <footer class="footer">
-        <div class="container">
+    <footer class="footer" >
+        <div class="container" style="flex: 1;">
             <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
               <div class="col mb-3">
 
@@ -228,25 +245,25 @@
           
               <div class="col mb-3">
                 <ul class="nav flex-column">
-                  <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
-                  <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-muted">About</a></li>
-                  <li class="nav-item mb-2"><a href="product.html" class="nav-link p-0 text-muted">Product</a></li>
+                  <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 ">Home</a></li>
+                  <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 ">About</a></li>
+                  <li class="nav-item mb-2"><a href="team.html" class="nav-link p-0">Team</a></li>
+                  <li class="nav-item mb-2"><a href="faq.html" class="nav-link p-0 ">FAQ</a></li>
                 </ul>
               </div>
           
               <div class="col mb-3">
                 <ul class="nav flex-column">
-                  <li class="nav-item mb-2"><a href="product.html" class="nav-link p-0 text-muted">Super App</a></li>
-                  <li class="nav-item mb-2"><a href="product.html" class="nav-link p-0 text-muted">The Corridor</a></li>
-                  <li class="nav-item mb-2"><a href="product.html" class="nav-link p-0 text-muted">SpatialX</a></li>
+                  
+                  <li class="nav-item mb-2"><a href="custom-system.html" class="nav-link p-0 ">Custom Systems</a></li>
+                  <li class="nav-item mb-2"><a href="gis.html" class="nav-link p-0 ">GIS</a></li>
+                  <li class="nav-item mb-2"><a href="data-center.html" class="nav-link p-0 ">Data Center</a></li>
                 </ul>
               </div>
           
               <div class="col mb-3">
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="refund-policy.html" class="nav-link p-0 text-muted">Refund Policy</a></li>
-                    <li class="nav-item mb-2"><a href="privacy-policy.html" class="nav-link p-0 text-muted">Privacy Policy</a></li>
-                    <li class="nav-item mb-2"><a href="fulfillment-policy.html" class="nav-link p-0 text-muted">Fulfillment Policy</a></li>
+                    <li class="nav-item mb-2"><a href="privacy-policy.html" class="nav-link p-0 ">Privacy Policy</a></li>
                 </ul>
               </div>
             </footer>
@@ -304,6 +321,9 @@
             loop: true,
         });        
     </script>
-
+    <!-- Technological Scripts-->
+    <script src="assets/js/technological.js"></script>  
+    <!-- Navigation Drop Down Script--> 
+    <script src="assets/js/navdropdown.js"></script>  
 </body>
 </html>

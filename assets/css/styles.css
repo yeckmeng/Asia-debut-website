@@ -607,7 +607,7 @@ section {
 
 .mh-header {
   padding: 0;
-  background: #ffffff;
+  background: #d2d2d2;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -622,7 +622,7 @@ section {
   left: 0;
   right: 0;
   top: 0;
-  background: #ffffff;
+  background: #d2d2d2;
 }
 
 .mh-header.nav-strict .mh-nav {
@@ -662,25 +662,22 @@ section {
        home
     ==============
 */
-.resume-home {
-  height: 100vh;
-}
 
 .resume-home .resume-inner {
-  padding: 140px 0px;
+  padding: 140px 0px 5px 0px;
 }
 
 .resume-home .resume-inner h1 {
-  font-size: 50px;
+  font-size: 70px;
   font-weight: bold;
   line-height: 1.28;
   letter-spacing: -1.25px;
-  color: #cbcbcb;
+  color: rgb(171, 171, 171);
   margin-bottom: 40px;
 }
 
 .resume-home .resume-inner h1 span {
-  color: #0d2658;
+  color: #1b1b19;
 }
 
 .resume-home .resume-inner p {
@@ -804,6 +801,22 @@ section {
   }
 }
 
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+  }
+  40% {
+      transform: translateY(-20px);
+  }
+  60% {
+      transform: translateY(-10px);
+  }
+}
+
+h2.bounce {
+  animation: bounce 2.5s infinite;
+}
+
 .btn-main {
   margin-top: 30px;
 }
@@ -837,6 +850,44 @@ section {
   margin-left: auto !important;
 }
 
+.btn-outline-learn {
+  color: gray;
+  border-color: grey; 
+  background-color: transparent;
+  border-width: 2px;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 18px; 
+  transition: background-color 0.3s, color 0.3s; 
+  font-size:25px;
+}
+
+.btn-outline-learn:hover {
+  background-color: gray; 
+  color: white;
+}
+
+.job-posting {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-apply {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-apply:hover {
+  background-color: #0056b3;
+}
+
 .resume-title h1 {
   font-size: 50px;
   font-weight: bold;
@@ -846,7 +897,14 @@ section {
   margin-bottom: 20px;
 }
 
-.resume-title p {
+.resume-title p{
+  opacity: 0.6;
+  font-size: 16px;
+  line-height: 1.88;
+  color: #071634;
+}
+
+.resume-title p1{
   opacity: 0.6;
   font-size: 16px;
   line-height: 1.88;
@@ -854,7 +912,7 @@ section {
 }
 
 .section-padding {
-  padding: 125px 0px;
+  padding: 125px 0px 0px 0px;
 }
 
 /*
@@ -862,6 +920,12 @@ section {
        Do area
     ==============
 */
+
+.resume-do {
+  position: relative;
+  z-index: 2; /*overlap of section white with other image prevention*/
+}
+
 .resume-do-inner .do-inner .do_icon {
   width: 72px;
   height: 72px;
@@ -1704,6 +1768,35 @@ section {
   height: 52px;
 }
 
+.faq-question .question-text::after {
+  padding: 3px;
+  content: "-";
+}
+
+.faq-question.collapsed .question-text::after{
+  content: "+";
+}
+
+.faq-question {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+  transition: background-color 0.3s ease;
+  font-size: 18px;
+}
+.faqcollapse {
+  background-color: white;
+  color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
 .ag-blog-single-page {
   border-bottom: 1px solid rgba(209, 211, 220, 0.4);
 }
@@ -1949,3 +2042,118 @@ section {
   border: solid 1.4px rgba(42, 42, 42, 0.15);
 }
 /*# sourceMappingURL=styles.css.map */
+
+.hidden-text {
+  display: none;
+  text-align: center;
+  margin-top: 20px; 
+  font-size: 10px;
+}
+
+.video video {
+  width: 85%;
+  height: calc(100% - 40px);
+  object-fit: cover;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.6); 
+  border: 3px solid black; 
+}
+
+.logo-size {
+  max-width: 60%;
+  height:auto;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #d2d2d2;
+  border: 0px;
+}
+
+.servicefooter {
+  margin-top: 800px;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.employee-image {
+  object-fit: cover;
+  width: 100%;
+}
+
+.employee-container {
+  position: relative;
+}
+
+.employee-info {
+  position: relative;
+  overflow: hidden;
+}
+
+/*.employee-info img {
+  transition: filter 0.3s ease-in-out;
+}
+*/
+
+.employee-info:hover img {
+  filter: brightness(0%) invert(0.85);
+}
+
+.employee-info p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+  z-index: 2; 
+  opacity: 0; 
+  transition: opacity 0.3s ease-in-out;
+}
+
+.employee-info:hover p {
+  opacity: 1; 
+}
+
+.dropdown-menu {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 0.75rem 1.5rem; 
+}
+
+/* .dropdown-menu a:hover {
+  background-color: #D2D2D2;
+} */
+
+/* .nav-item:hover .dropdown-menu {
+  display: block;
+} */
+.nav-item:hover .nav-link {
+  color: gray;
+}
+
+.nav-item.dropdown:hover .nav-link {
+  color: gray;
+}
+
+#servicesDropdown a.dropdown-item:hover {
+  color: gray;
+}
+/*Below vvv This is for team titles vvv Below*/
+
+.teamtitle h3 {
+  font-weight:normal;
+  font-size:20px;
+}
+
+.teamtitle h4 {
+  font-size:30px;
+}
+
+/**/
