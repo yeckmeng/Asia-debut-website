@@ -2127,20 +2127,23 @@ h2.bounce {
   padding: 0.75rem 1.5rem; 
 }
 
-.dropdown-menu a:hover {
+/* .dropdown-menu a:hover {
   background-color: #D2D2D2;
-}
+} */
 
 /* .nav-item:hover .dropdown-menu {
   display: block;
 } */
+.nav-item:hover .nav-link {
+  color: gray;
+}
 
 .nav-item.dropdown:hover .nav-link {
-  color: red;
+  color: gray;
 }
 
 #servicesDropdown a.dropdown-item:hover {
-  color: red;
+  color: gray;
 }
 /*Below vvv This is for team titles vvv Below*/
 
