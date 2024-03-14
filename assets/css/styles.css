@@ -63,7 +63,7 @@
 
 -------------------------------------------------------------------*/
 /*
-================
+===============
  VARIABLES
 ================
 */
@@ -1206,35 +1206,14 @@ h2.bounce {
   border: 1px solid transparent;
 }
 
-.Custom_contact .form-control {
-  border: 0px;
-  border-radius: 0px;
+.form-control {
+  border-radius: 8px;
   font-size: 16px;
   color: #071634;
   height: 48px;
-  border-bottom: 1px solid rgba(10, 31, 72, 0.15);
-  margin-top: 30px;
-}
-
-.Custom_contact textarea {
-  height: auto !important;
-}
-
-.Custom_contact p {
-  opacity: 0.6;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: normal;
-  color: #071634;
-  margin-top: 40px;
-}
-
-.form-control:focus {
-  outline: none !important;
-  border-bottom: 1px solid rgba(10, 31, 72, 0.15);
-  background-image: none !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  border: 2px solid transparent; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); 
+  transition: box-shadow 0.3s, border-color 0.3s; 
 }
 
 /*
@@ -2159,3 +2138,7 @@ h2.bounce {
 }
 
 /**/
+
+.alltechnology:hover {
+  filter: grayscale(100%);
+}
