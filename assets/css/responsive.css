@@ -609,6 +609,12 @@
   }
 }
 
+@media only screen and (max-width: 450px) {
+  .keyboard-shape {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 420px) {
   .keyboard-shape {
     display: none;
