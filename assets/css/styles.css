@@ -2062,8 +2062,8 @@ h2.bounce {
 .employee-image {
   object-fit: cover;
   width: 100%;
-  height: 160px; 
-  width: 160px;
+  height: 120px; 
+  width: 120px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -2134,6 +2134,7 @@ h2.bounce {
 /*Below vvv This is for team titles vvv Below*/
 
 .teamtitle h3 {
+  padding-top: 1em;
   font-weight:normal;
   font-size:20px;
   text-align: center;

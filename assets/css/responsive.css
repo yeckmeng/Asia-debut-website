@@ -24,7 +24,7 @@
   }
 
   .employee-image {
-    width: 100%;
+    /* width: 100%; */
   }
   
 }
@@ -369,7 +369,7 @@
   }
 
   .employee-image {
-    width: 80%;
+    /* width: 80%; */
   }
 
 }
@@ -560,7 +560,7 @@
     display: none;
   }
   .employee-image {
-    width: 70%;
+    /* width: 70%; */
   }
 
   .alltechnology{
@@ -620,7 +620,7 @@
     font-size: 30px;
   }
   .employee-image {
-    width: 50%;
+    /* width: 50%; */
   }
 }
 /*# sourceMappingURL=responsive.css.map */
