@@ -570,6 +570,11 @@
   .logo-size{
     width:170px;
   }
+
+  #company-logo {
+      content: url('../images/A-logo-asia-debut.png'); /* Change to the path of your small image */
+      max-width: 50px;
+}
 }
 
 @media only screen and (max-width: 575px) {
