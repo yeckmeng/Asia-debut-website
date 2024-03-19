@@ -5,3 +5,31 @@
 }
 
 .aboutus {min-height: 800px;}
+
+
+
+  /* Secondary Animation */
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); } /* Adjust the scale factor as needed */
+    100% { transform: scale(1); }
+  }
+  
+  .pulse-word {
+    animation: pulse 2s ease-in-out infinite alternate;
+  }
+
+/* Secondary Animation */
+.secondary-animation {
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+  margin-top: 1.5em;
+  color: #FFFFFF;
+  -webkit-text-stroke-width: 0.5 px; /* Set stroke width */
+  -webkit-text-stroke-color:#040404 ;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
