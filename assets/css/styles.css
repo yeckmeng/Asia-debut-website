@@ -2059,7 +2059,7 @@ h2.bounce {
   flex: 1;
 }
 
-.employee-image {
+.employee-info img {
   object-fit: cover;
   width: 100%;
   height: 120px; 
@@ -2067,15 +2067,7 @@ h2.bounce {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-.employee-container {
-  position: relative;
-}
-
-.employee-info {
-  position: relative;
-  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*.employee-info img {
@@ -2136,8 +2128,9 @@ h2.bounce {
 .teamtitle h3 {
   padding-top: 1em;
   font-weight:normal;
-  font-size:20px;
+  font-size:16px;
   text-align: center;
+  opacity: 0.6;
 }
 
 .teamtitle h4 {
